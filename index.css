@@ -1,0 +1,70 @@
+/* Full screen layout with court-style background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Wooden court texture */
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main wrapper for the teams */
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+}
+
+/* Each team block as a card */
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Slight transparent card effect */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Team headings */
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Score box with digital styling */
+.score {
+  background-color: #080001;
+  color: #F94F6D;
+  font-family: 'Cursed Timer ULiL', monospace;
+  font-size: 60px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  min-width: 100px;
+  text-align: center;
+  border: 3px solid #F94F6D;
+  box-shadow: 0 0 20px #F94F6D;
+}
+
+/* Button layout and glow effects */
+.buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #9AABD8;
+  background-color: black;
+  color: #9AABD8;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #F94F6D;
+  color: #fff;
+  box-shadow: 0 0 8px #F94F6D;
+}
