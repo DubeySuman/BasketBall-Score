@@ -4,16 +4,33 @@ Install the dependencies and run the project
 npm install
 npm start
 ```
+# Basketball Scoreboard 🏀
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple web app that lets you keep score for a basketball game.  
+Built using **HTML**, **CSS**, and **JavaScript** — designed with a fun, court-themed UI.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🔧 Features
+- Two teams: Home and Guest
+- +1, +2, +3 point buttons for each team
+- Digital scoreboard style
+- Responsive and styled like a basketball court
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 📁 Files
+- `index.html` – Structure of the scoreboard
+- `index.css` – Styling and theme
+- `index.js` – Score update logic
 
-Happy Coding!
+## 🚀 How to Run
+1. Clone or download this repo
+2. Open `index.html` in your browser
+
+## 🧱 Future Improvements
+- Add reset button
+- Add countdown game timer
+- Add quarter/period indicator
+- Add sound effects
+
+---
+
+Made with ❤️ while learning JavaScript
+
